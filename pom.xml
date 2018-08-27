@@ -15,4 +15,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+ <distributionManagement>
+  <repository>
+   <id>springsnap</id>
+   <name>Snapshot Repository</name>
+   <url>http://107.21.43.244:8081/nexus/content/repositories/springsnap/</url>
+  </repository>
+ </distributionManagement>
 </project>
